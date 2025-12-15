@@ -7,6 +7,16 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  display: block;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 img {
   display: block;
@@ -43,6 +53,8 @@ img {
 ul,
 ol {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .header {
   display: flex;
@@ -80,6 +92,7 @@ ol {
 .address-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .address a:hover {
   color: #404bbf;
@@ -101,6 +114,7 @@ ol {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  padding-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -132,7 +146,6 @@ ol {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding: 0;
 }
 .goal-item {
   width: calc((100% - 3 * 24px) / 4);
@@ -161,7 +174,6 @@ ol {
 .team-list {
   display: flex;
   gap: 24px;
-  padding: 0;
 }
 .team-item {
   border-radius: 0px 0px 4px 4px;
@@ -169,6 +181,7 @@ ol {
 }
 .shadow-border {
   padding: 32px 0;
+  background-color: #ffffff;
 }
 .border {
   padding: 32px 16px;
@@ -203,7 +216,6 @@ ol {
   column-gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
-  padding: 0;
 }
 .portfolio-list-header {
   font-weight: 500;
