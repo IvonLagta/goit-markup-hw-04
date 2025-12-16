@@ -243,11 +243,11 @@ ol {
 .socials-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 .socials-item {
   width: 40px;
   height: 40px;
-  justify-content: center;
 }
 .socials-link {
   width: 100%;
@@ -388,3 +388,4 @@ ol {
 .footer-svg {
   fill: #f4f4f4;
 }
+
