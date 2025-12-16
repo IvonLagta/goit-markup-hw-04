@@ -261,7 +261,7 @@ ol {
   align-items: center;
   justify-content: center;
 }
-.socials-link:focus {
+a.socials-link:focus {
   background-color: #404bbf;
 }
 .socials-link:hover {
